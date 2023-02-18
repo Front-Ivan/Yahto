@@ -4,7 +4,7 @@
 
 <style lang="scss">
 //////////////////START null styles START///////////////////
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
 *,
 *:before,
@@ -39,7 +39,9 @@ body,
 }
 
 body {
-  font-family: 'Baloo 2', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
 }
