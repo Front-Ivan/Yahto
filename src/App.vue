@@ -33,17 +33,27 @@ select {
   font: inherit;
 }
 
-body,
-#app {
+input {
+  border: none;
+  outline: none;
+}
+
+body {
   min-height: 100vh;
+}
+
+#app {
+  height: 100%;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1vw;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  padding: 3.1106vh 3.1875vw 0 0;
+  overflow: hidden;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -57,5 +67,24 @@ body {
 
 //////////////////END null styles END///////////////////
 
+h1, .page-title {
+  font-weight: 600;
+  font-size: 1.875vw;
+  line-height: 4.2216358vh;
+  color: #18333E;
+}
 
+h2 {
+  font-weight: 400;
+  font-size: 1.375vw;
+  line-height: 3.0782761vh;
+  color: #18333E;
+}
+
+a {
+  font-size: 1vw;
+  line-height: 2.2867194vh;
+  text-decoration-line: underline;
+  color: #18333E;
+}
 </style>
